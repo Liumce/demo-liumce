@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_shop_car"
+          android:title="购物车"
+          android:icon="@mipmap/ic_shop_cart_homepage"
+          app:showAsAction="always" />
+</menu>

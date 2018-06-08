@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="308.0dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="15.0dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="left" >
+
+        <TextView
+            android:id="@+id/textv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/relayout_addview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.0dp"
+        android:layout_marginRight="15.0dp"
+        android:layout_marginTop="15.0dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <include layout="@layout/qn_dialog_textview" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/layout_content_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15.0dp"
+        android:layout_marginRight="15.0dp"
+        android:scrollbars="none"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_content_add"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#444444"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/button_lay"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dp"
+        android:layout_marginTop="15.0dp"
+        android:paddingLeft="15.0dp"
+        android:paddingRight="15.0dp"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#BFBFBF"
+            android:text="取消"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="20.0dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_confir"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/original_border_color"
+            android:text="确定"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>

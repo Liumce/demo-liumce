@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    >
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="229dp"
+        android:autoStart="true"
+        android:flipInterval="2000"
+        android:inAnimation="@anim/homepage_anim_come_in"
+        android:outAnimation="@anim/homepage_anim_come_out">
+
+    </ViewFlipper>
+
+
+</LinearLayout>

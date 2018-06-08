@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/appbarlayout"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:drawableLeft="@mipmap/icon_search"
+            android:hint="搜索"
+            android:drawablePadding="5dp"
+            android:theme="@style/inputStyle"
+            android:textColorHint="@color/white"
+            android:textCursorDrawable="@color/white"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </android.support.v7.widget.Toolbar>
+</android.support.design.widget.AppBarLayout>
+    <!--<LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.16"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn_category_homepage"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@mipmap/ic_category_homepage"
+            />
+    </LinearLayout>-->
+
+    <!--<LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:baselineAligned="false"
+        android:id="@+id/search_title_homepage">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="14dp"
+            android:layout_weight="0.1"
+            android:layout_marginLeft="4dp"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/icon_search"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="茶器上的缤纷色彩"
+            android:gravity="center_vertical"
+            android:textSize="12dp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.16"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/btn_shop_cart_homepage"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@mipmap/ic_shop_cart_homepage"
+            />
+    </LinearLayout>-->
